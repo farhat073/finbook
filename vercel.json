@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd finbook-web && npm install && npm run build",
+  "outputDirectory": "finbook-web/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "appId": "com.finbook.app",
+  "appName": "Finbook",
+  "webDir": "dist",
+  "server": {
+    "url": "https://finbook-web.vercel.app",
+    "cleartext": true
+  },
+  "plugins": {
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "clientId": "29568527854-pcppseikmbos7lh2diummej1jj0i8tii.apps.googleusercontent.com",
+      "serverClientId": "29568527854-pcppseikmbos7lh2diummej1jj0i8tii.apps.googleusercontent.com"
+    },
+    "SpeechRecognition": {
+      "language": "hi-IN"
+    }
+  }
+}
